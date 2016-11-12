@@ -1,0 +1,117 @@
+.pager {
+    text-align: center;
+}
+.pager * {
+    text-decoration: none;
+}
+.pager .pre-page {
+    display: inline-block;
+    text-align: center;
+    background-color: #ffffff;
+    border-color: #bbbbbb;
+    border-bottom-left-radius: 20px;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 0;
+    box-shadow: rgba(204, 204, 204, 0.701961) 1px 1px 3px 0px;
+    color: #919191;
+    font-family: "新宋体", "宋体", Arial SimSun, 'Segoe UI', Tahoma, Helvetica, Sans-Serif;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    height: 41px;
+    line-height: 41px;
+    margin-left: 1px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: 90px;
+    text-decoration: none;
+}
+.pager .pre-page:hover {
+    background: #ff3366;
+    border: medium none;
+    color: #fff;
+    font-weight: bold;
+}
+.pager .next-page {
+    display: inline-block;
+    text-align: center;
+    background-color: #ffffff;
+    border-color: #bbbbbb;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: rgba(204, 204, 204, 0.701961) 1px 1px 3px 0px;
+    color: #919191;
+    font-family: "新宋体", "宋体", Arial SimSun, 'Segoe UI', Tahoma, Helvetica, Sans-Serif;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    height: 41px;
+    line-height: 41px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: 90px;
+    text-decoration: none;
+}
+.pager .next-page:hover {
+    background: #ff3366;
+    border: medium none;
+    color: #fff;
+    font-weight: bold;
+}
+.pager .item {
+    -webkit-box-shadow: rgba(204, 204, 204, 0.701961) 1px 1px 0px 0px;
+    background-clip: border-box;
+    background-color: #ffffff;
+    border-color: #919191;
+    box-shadow: rgba(204, 204, 204, 0.701961) 1px 1px 0px 0px;
+    color: #919191;
+    display: inline-block;
+    font-family: Arial, Helvetica, Tahoma, Verdana, Sans-Serif;
+    font-size: 14px;
+    font-weight: bold;
+    height: 41px;
+    line-height: 41px;
+    overflow: hidden;
+    text-align: center;
+    text-decoration: none;
+    padding: 0 16px;
+    margin: 0 -1px;
+}
+.pager .item:hover {
+    background: #ff3366;
+    border: medium none;
+    color: #fff;
+    font-weight: bold;
+}
+.pager .cur {
+    background: #ff3366;
+    border: medium none;
+    color: #fff;
+    font-weight: bold;
+    cursor: default;
+}
+.pager .disabled {
+    color: #bbbbbb;
+    font-weight: normal;
+    cursor: default;
+}
+.pager .disabled:hover {
+    background: #FFFFFF;
+    border: medium none;
+    color: #bbbbbb;
+    font-weight: normal;
+}
+.pager .more {
+    cursor: default;
+}
+.pager .more:hover {
+    background: #FFFFFF;
+    border: medium none;
+    color: #919191;
+    font-weight: bold;
+}

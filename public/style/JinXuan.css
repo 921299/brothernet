@@ -1,0 +1,279 @@
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.main-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.search-wrap {
+  background: url("../images/TB2jNwtqpXXXXbbXXXXXXXXXXXX_!!2508158775.jpg") top center no-repeat;
+  position: relative;
+  height: 150px;
+  margin: 15px auto;
+}
+.search-wrap .search-form {
+  position: absolute;
+  top: 95px;
+  left: 443px;
+}
+.search-wrap .search-form input[type=text] {
+  display: block;
+  width: 244px;
+  height: 32px;
+  line-height: 30px;
+  text-align: center;
+  border: 0;
+  margin-top: -1px;
+}
+.search-wrap .search-form input[type=submit] {
+  display: block;
+  width: 79px;
+  height: 34px;
+  border: 0;
+  background-color: transparent;
+  color: #ffffff;
+  letter-spacing: 10px;
+  margin-top: -33px;
+  cursor: pointer;
+  margin-left: 247px;
+}
+.cat-wrap {
+  position: relative;
+}
+.cat-wrap .cat-list ul {
+  list-style: none;
+}
+.cat-wrap .cat-list ul li {
+  list-style: none;
+  float: left;
+  margin-right: 10px;
+}
+.cat-wrap .cat-list ul li a {
+  font-size: 12px;
+  color: #666;
+}
+.cat-wrap .cat-list ul li:hover a,
+.cat-wrap .cat-list ul li:focus a {
+  color: #ff0000;
+}
+.cat-wrap .cat-list ul .active a {
+  color: #ff0000;
+}
+.cat-wrap .sort-wrap {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.cat-wrap .sort-wrap .sort-text {
+  font-size: 12px;
+  color: #666;
+}
+.cat-wrap .sort-wrap a {
+  font-size: 12px;
+  color: #5fa1ca;
+}
+.cat-wrap .sort-wrap a:hover,
+.cat-wrap .sort-wrap a:focus {
+  color: #FF0000;
+}
+.cat-wrap .sort-wrap a.active {
+  color: #FF0000;
+}
+.cat-wrap .sort-wrap a.margin {
+  margin-left: 10px;
+}
+.tag-wrap {
+  background-color: #dbf0fd;
+  border: #c7d1d4 1px dashed;
+  height: 35px;
+  margin: 18px auto;
+  width: 1198px;
+}
+.tag-wrap .fixed-wrap {
+  float: left;
+}
+.tag-wrap .fixed-wrap .tag-fixed {
+  float: left;
+  line-height: 35px;
+  margin-left: 10px;
+  margin-right: 15px;
+}
+.tag-wrap .fixed-wrap .tag-fixed .icon {
+  background: url("../images/select_icon.png") 0 0 no-repeat;
+  width: 13px;
+  height: 13px;
+  overflow: hidden;
+  display: block;
+  float: left;
+  margin-top: 10px;
+}
+.tag-wrap .fixed-wrap .tag-fixed .text {
+  font-size: 12px;
+  color: #666;
+  float: left;
+  margin-left: 5px;
+}
+.tag-wrap .fixed-wrap .tag-fixed:hover .icon,
+.tag-wrap .fixed-wrap .tag-fixed:focus .icon {
+  background: url("../images/select_icon.png") 0 -13px no-repeat;
+}
+.tag-wrap .fixed-wrap .tag-fixed:hover .text,
+.tag-wrap .fixed-wrap .tag-fixed:focus .text {
+  color: #FF0000;
+}
+.tag-wrap .fixed-wrap .active .icon {
+  background: url("../images/select_icon.png") 0 -13px no-repeat;
+}
+.tag-wrap .fixed-wrap .active .text {
+  color: #FF0000;
+}
+.tag-wrap .split {
+  height: 25px;
+  background-color: #CCCCCC;
+  width: 1px;
+  float: left;
+  overflow: hidden;
+  margin-left: 50px;
+  margin-top: 5px;
+}
+.tag-wrap .tags {
+  float: left;
+  font-size: 12px;
+  color: #666;
+  line-height: 37px;
+}
+.tag-wrap .tags span {
+  float: left;
+  margin-left: 20px;
+}
+.tag-wrap .tags a {
+  float: left;
+  color: #5fa1ca;
+  margin: auto 8px;
+}
+.tag-wrap .tags a:hover,
+.tag-wrap .tags a:focus {
+  color: #FF0000;
+}
+.tag-wrap .tags .active {
+  color: #FF0000;
+}
+.goods-list ul {
+  list-style: none;
+}
+.goods-list ul li {
+  float: left;
+  list-style: none;
+  margin-right: 17px;
+  border: 1px solid #cbdcfc;
+  width: 285px;
+  margin-bottom: 20px;
+}
+.goods-list ul li a img {
+  border: none;
+  max-width: 285px;
+  max-height: 285px;
+}
+.goods-list ul li .padding {
+  padding: 0px 5px 5px 5px;
+}
+.goods-list ul li .padding .title i {
+  margin-top: 2px;
+}
+.goods-list ul li .padding .title .tmall {
+  background: url("../images/tmall.png") 0 0 no-repeat;
+  width: 16px;
+  height: 16px;
+  display: block;
+  float: left;
+}
+.goods-list ul li .padding .title .taobao {
+  background: url("../images/taobao.png") 0 0 no-repeat;
+  width: 16px;
+  height: 16px;
+  display: block;
+  float: left;
+}
+.goods-list ul li .padding .title span {
+  float: left;
+  width: 250px;
+  height: 20px;
+  overflow: hidden;
+  margin-left: 5px;
+  color: #666;
+}
+.goods-list ul li .padding .price-wrap {
+  position: relative;
+  margin: 4px 0;
+}
+.goods-list ul li .padding .price-wrap .icon {
+  color: #df1956;
+  font-size: 24px;
+  float: left;
+  margin-top: 2px;
+}
+.goods-list ul li .padding .price-wrap .price {
+  color: #df1956;
+  font-size: 26px;
+  font-family: Arial;
+  margin-left: -3px;
+  font-weight: bold;
+  float: left;
+}
+.goods-list ul li .padding .price-wrap .youpin {
+  background: url("../images/youpin.png") no-repeat;
+  width: 30px;
+  height: 18px;
+  display: block;
+  float: left;
+  margin-top: 9px;
+  margin-left: 13px;
+}
+.goods-list ul li .padding .price-wrap .sold-count {
+  position: absolute;
+  top: 8px;
+  right: 0;
+}
+.goods-list ul li .padding .price-wrap .sold-count .text {
+  color: #9a9a9a;
+  font-size: 12px;
+}
+.goods-list ul li .padding .price-wrap .sold-count .num {
+  color: #e788a8;
+}
+.goods-list ul li .padding .time-wrap {
+  position: relative;
+  margin: 2px 0;
+}
+.goods-list ul li .padding .time-wrap .time {
+  float: left;
+  background: url("../images/time.png") no-repeat;
+  display: block;
+  width: 13px;
+  height: 13px;
+  margin-top: 3px;
+}
+.goods-list ul li .padding .time-wrap .date {
+  float: left;
+  font-size: 14px;
+  color: #5fa1ca;
+  margin-left: 5px;
+}
+.goods-list ul li .padding .time-wrap .buy {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #5fa1ca;
+  font-size: 14px;
+}
+.goods-list ul li .padding .time-wrap .buy:focus,
+.goods-list ul li .padding .time-wrap .buy:hover {
+  color: #FF0000;
+}
+.goods-list ul .no-right {
+  margin-right: 0;
+}
